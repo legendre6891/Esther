@@ -1,0 +1,25 @@
+qqq so sick/ill today... I think I brought home a bug or something :(
+
+* The Program
+
+* Objects
+** Ingredient Class
+- Type(s): List of string(s).
+  - TYPE_LIST: file, folder, program, text object, equation, executable,
+    browser, file manager, text editor, audio player, media player,
+    terminal, etc.
+- Representation: implement with operator overloading/special method names
+- Data: data_dict, whose keys depend on the Ingredient types. Ex:
+  - LOCATION (for folders, files, programs)
+  - FILE_TYPE (for files)
+  - etc.
+** Recipes
+- Type: the type of the recipe. Class variable?
+- Representation: __str__
+- Ingredient Types: list of types of ingredients this recipe takes in
+- Function of ingredients: Ex:
+  - Move To: Takes files/folders to folders
+  - Copy To: Same as move to.
+  - Open: Takes a file, folder, program.
+  - Evaluate: Takes an equation.
+- Dictionary?
